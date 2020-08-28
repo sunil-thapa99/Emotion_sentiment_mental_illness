@@ -1,0 +1,9 @@
+{
+    "883": "Badal Shrestha",
+    "885": "Sunil Thapa",
+    "886": "Sujan Adhikari",
+    "887": "Sagar Lamichhane",
+    "888": "Sajan Adhikari",
+    "889": "Aakash Tamang",
+    "9090": "Jit Bahadur Khamcha"
+}

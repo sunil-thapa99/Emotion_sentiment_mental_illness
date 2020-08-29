@@ -1,23 +1,10 @@
 # Retrievalbasedchatbot
-Retrieval Based Chatbot for the college. I have developed this demo chatbot for the Herald College Kathmandu. This chatbot can be more enhanced. We can also made it hybrid chatbot. One example of Hybrid Chatbot is :-
-[https://www.youtube.com/watch?v=Z0FcYLuloWI&amp;t=11s]
+Emotionally Intelligent Chatbot
+ Category:  Health and Urban Population Management ##mental health
 
+Depression has become one of the major problem around the globe. Due to pandemic the problem has been growing at rapid pace. During the lockdown period in Nepal 1,647 people has committed suicide which is more than that of people killed by the pandemic here in Nepal. So, this is a serious issue which must be tackled. A simple helpline providing the emotional support can save lots of victim. A technology can also play a vital role to solve this challenging problems.  
 
-The file requirement.txt include all the library name with its version. I have developed this project in the Theano backend. 
+To come up with the solution we made a “Emotionally Intelligent Chatbot” which detects emotion of the person into seven category i.e happy, sad, angry, disgust, sacred, suprised & neutral and customize chatbot accordingly. The chatbot acts in a different manner based on the emotion of the person. The emotion of the person is tracked in a certain interval of time. Based on the emotion the chatbot changes the way of interaction even during the communication with the bot.
 
-In the folder chatbot. It contains all the main files. There are two folder data and development and one configuration file. 
-
-Data folder include demo JSON data for the herald college kathmandu. Configuration file include code to read the path of the data. 
-
-Development folder include main files of the projects. Python file retrival_model code is related to making model for the chatbot. Python file use_model code is related to take queries from users and giving back resonses. 
-
-I have use Flask to make the simple frontend. For connecting fronend and backend, i read this [https://dev.to/sahilrajput/build-a-chatbot-using-flask-in-5-minutes-574i] article, made similar kind of frontend and use its java script. 
-
-Python file app is the main file of the flask. It include only the code needed in backend. 
-
-If you want to make our own retrieval based chatbot, you have to look into retrieval_model and use_model file. You can change the dataset, train the model and use that model.
-Below figure shows, the conversation sample of the project.
-
-#python
-
- ![](chatbot/Capture.JPG)
+![](pic.png)
+Fig. Overall System

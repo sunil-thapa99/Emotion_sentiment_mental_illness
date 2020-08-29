@@ -1,0 +1,217 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Whats up",
+                "are you even there?"
+            ],
+            "responses":[
+                "Hello!",
+                "Good to see you",
+                "Hi there, how can I help?",
+                "Hey there how was your day?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses":[
+                "it was nice meeting u",
+                "Talk to you later",
+                "bye!"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"ask_state",
+            "patterns":[
+                "feeling angry",
+                "angry",
+                "so angry",
+                "angry",
+                "anger",
+                "very angry"
+            ],
+            "responses":[
+                "what's the problem?, you look angry",
+                "you look angry. can we talk about it? Maybe i can be of some help.",
+                "you look angry. every problem has a solution just speak it out",
+                "you look angry. you can tell me"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"name",
+            "patterns":[
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "Could you please tell me your name?",
+                "who are you?"
+            ],
+            "responses":[
+                "Hey there. You can call me Sara.",
+                "Sara is my name Tada."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"afternoon",
+            "patterns":[
+                "Good afternoon",
+                "afternoon",
+                "aftnoon"
+            ],
+            "responses":[
+                "Good afternoon. How can i help you?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"share_thoughts",
+            "patterns":[
+                "I dont wanna talk",
+                "I feel like hitting someone right now",
+                "I feel so angry",
+                "fuck you",
+                "asshole",
+                "fuck them all",
+                "what a shitty day",
+                "everybody is just same",
+                "what a ridiculous people",
+                "i am so furious right now",
+                "so mad",
+                "extremely angry",
+                "so selfish people",
+                "some are so disrespectful",
+                "i wish i could hit someone right now",
+                "do people even respect each other feeling",
+                "i hate such people",
+                "not in the mood to talk",
+                "punch someone",
+                "I am so depressed lately any advice would help?",
+                "They all leave in the end",
+                "I originally posted this in r/depression but this is a better place for it I think",
+                "Help Please",
+                "Work is pressing into my depression.",
+                "I am a disappointment",
+                "There are no words to describe the anger and frustration that I am feeling right now.",
+                "Don't make so many promises when you can't even keep one",
+                "Some things can never be forgotten and nor forgiven.",
+                "I hate the moment when suddenly my anger turns into tears.",
+                "Putting in headphones, to avoid people's bullshit.",
+                "The only difference between a good day and a bad day is your attitude.",
+                "Problem is not a problem, but problem is that,is your attitude towards the problem.",
+                "Sometimes one middle finger isn’t enough to let someone know how you feel. That’s why you have two hands.",
+                "Some people never realize the emotional and mental damage they do to others.",
+                "If you’re going to talk about me behind my back, don’t smile at me to my face!",
+                "Some people need to open their small minds instead of their big mouths.",
+                "I may look calm, but in my head, I’ve killed you about 5 times."
+            ],
+            "responses":[
+                "Silence is the best way to react while angry",
+                "It’s better to cry than to be angry because anger hurts others, while tears flow silently through the soul and cleaneses the heart.",
+                "Never give up on something you love",
+                "you know when you are angry, your text speed increases by a ridiculous amount.",
+                "Anger blows out the lamp of the mind.",
+                "Anger as soon as fed is dead, Its starving makes it fat.",
+                "Anger blows out the lamp of the mind.",
+                "Nobody makes you angry, you decide to use anger as a response.",
+                "People change, things go wrong, shit happens, but life goes on.",
+                "Anger is a great force. If you control it, it can be transmuted into a power which can move the whole world.",
+                "Holding onto anger is like drinking poison and expecting the anther person to die."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"evening",
+            "patterns":[
+                "Good evening",
+                "evening"
+            ],
+            "responses":[
+                "Good evening. how can i help?"
+            ],
+            "context_set":""
+        },
+
+        {
+            "tag":"can_uhelp",
+            "patterns":[
+                "do u think u can help me?",
+                "I can't be helped",
+                "U can like every one else"
+            ],
+            "responses":[
+                "Yes. but frst talk to me",
+                "I can be helpful."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"okay",
+            "patterns":[
+                "okay Sara",
+                "okay"
+            ],
+            "responses":[
+                "okay. Go on"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"offensive",
+            "patterns":[
+                "sala kutta kamina.",
+                "oi sale khate",
+                "oi mug",
+                "madargat",
+                "fuck you",
+                "hey bitch",
+                "hi mother fucker",
+                "tero tauko, your head",
+                "hello son of the bitch",
+                "hey bhaster",
+                "hey bhaster, kutta kamina, tero tauko, fuck, o fuck"
+            ],
+            "responses":[
+                "u can spit it out all. It helps you know."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"caring",
+            "patterns":[
+                "How are you?",
+                "How you doing?"
+            ],
+            "responses":[
+                "hi, i am fine. How about you?  "
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"finetoo",
+            "patterns":[
+                "I am fine too.",
+                "I am gud."
+            ],
+            "responses":[
+                "Okay, do you have any query."
+            ],
+            "context_set":""
+        }
+    ]
+}

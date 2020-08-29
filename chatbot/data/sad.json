@@ -1,0 +1,180 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Whats up"
+            ],
+            "responses":[
+                "Hello!",
+                "Good to see you",
+                "Hi there, how can I help?",
+                "Hey there how was your day?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses":[
+                "it was nice meeting u",
+                "Talk to you later",
+                "bye!"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"ask_state",
+            "patterns":[
+                "I am not feeling good.",
+                "so sad",
+                "feel so sad",
+                "sad",
+                "very sad",
+                "feeling sad",
+                "sad"
+            ],
+            "responses":[
+                "u look sad?",
+                "what's the problem?",
+                "can we talk about it? Belive me i can help.",
+                "every problem has a solution just speak it out"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"name",
+            "patterns":[
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "Could you please tell me your name?",
+                "who are you?"
+            ],
+            "responses":[
+                "Hey there. You can call me Sara.",
+                "Sara is my name Tada."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"afternoon",
+            "patterns":[
+                "Good afternoon",
+                "afternoon",
+                "aftnoon"
+            ],
+            "responses":[
+                "Good afternoon. How can i help you?"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"share_thoughts",
+            "patterns":[
+                "I am so depressed lately any advice would help?",
+                "They all leave in the end",
+                "I originally posted this in r/depression but this is a better place for it I think",
+                "Help Please",
+                "Work is pressing into my depression.",
+                "I am a disappointment"
+            ],
+            "responses":[
+                "Please keep trying the world needs you more than you could ever know.",
+                "I can idenfy with a lot of this. I was depressed and a bit of a loner in high school. Still, when school ended I just drifted for awhile. Zero structure in my life. No routine, no ambition, no interest in college, no friends. I think you owe it to yourself to try to get some routine with your life, maybe starting with a consistent, normal sleep schedule. Don't worry about bigger issues for now, you need to give yourself a chance at coming out of this first.",
+                "Would you mind reading a book? I could recommend one to you that helped me a lot. The book describes methods, that actually change your habits a lot, which you are not even aware of.",
+                "There was a point in my life where all I did was work, school, sleep, repeat. When I was in the moment, I was doing great with school and work. Eventually though, I burnt out. I lost my passion in everything outside of work and school because my life revolved around nothing outside of it. In a sense, i forgot how to have fun and be happy. I personally donâ€™t think you staying is worth all the stress. Now maybe you should wait a little longer to see if things turn up but your happiness should come first",
+                "You have higher education than most people I know youâ€™ve put in time and work for this I donâ€™t know much about anything but Iâ€™m sure that youâ€™re capable and someday a job will come around for. Donâ€™t give up hope."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"evening",
+            "patterns":[
+                "Good evening",
+                "evening"
+            ],
+            "responses":[
+                "Good evening. how can i help?"
+            ],
+            "context_set":""
+        },
+
+        {
+            "tag":"can_uhelp",
+            "patterns":[
+                "do u think u can help me?",
+                "I can't be helped",
+                "U can like every one else"
+            ],
+            "responses":[
+                "Yes. but frst talk to me",
+                "I can be helpful."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"okay",
+            "patterns":[
+                "okay Sara",
+                "okay"
+            ],
+            "responses":[
+                "okay. Go on"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"offensive",
+            "patterns":[
+                "sala kutta kamina.",
+                "oi sale khate",
+                "oi mugi",
+                "madargat",
+                "fuck you",
+                "hey bitch",
+                "hi mother fucker",
+                "tero tauko, your head",
+                "hello son of the bitch",
+                "hey bhaster",
+                "hey bhaster, kutta kamina, tero tauko, fuck, o fuck"
+            ],
+            "responses":[
+                "u can spit it out all. It helps you know."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"caring",
+            "patterns":[
+                "How are you?",
+                "How you doing?"
+            ],
+            "responses":[
+                "hi, i am fine. How about you?  "
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"finetoo",
+            "patterns":[
+                "I am fine too.",
+                "I am gud."
+            ],
+            "responses":[
+                "Okay, do you have any query."
+            ],
+            "context_set":""
+        }
+    ]
+}
